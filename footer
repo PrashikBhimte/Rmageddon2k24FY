@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rmegaddon</title>
+    <link rel="stylesheet" href="rmageddon.css">
+    <script src="https://kit.fontawesome.com/6c7e0d1371.js"></script>
+</head>
+
+<body>
+    <!-- Footer start here -->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <!-- <img src="/assets/logo.png" class="logo1" width="50"> -->
+                <a href="https://www.rnxg.co.in/" class="logo1">RNXG</a>
+                <p>
+                    RNXG that is Robotics for Next Generation provides the best platform to work on different problem statements and to create best solutions for them.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">RMAGEDDON © 2024 - All Rights Reserved</p>
+    </footer>
+    <!-- Footer ends here -->
+</body>
+
+</html>
