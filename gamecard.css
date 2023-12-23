@@ -1,0 +1,215 @@
+.body {
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px 130px;
+
+
+
+}
+
+.p {
+    padding: 100px 250px;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 0.7em;
+
+}
+
+.bottom {
+
+    color: white;
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+
+.top {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    height: 200px;
+    width: 811px;
+    background-color: black;
+
+
+}
+
+.img {
+    width: 811px;
+    height: 200px;
+    position: absolute;
+    top: 128px;
+    left: 240px;
+    /* display: flex;
+        justify-content: center;
+        align-items: center;
+        
+         flex-direction: row; */
+    overflow: scroll;
+    /* position: relative; */
+    direction: ltl;
+
+
+
+}
+
+ .img1 {
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    margin: 0px 100px;
+    margin: 0px;
+
+}
+
+.img2 {
+    position: absolute;
+    top: 0px;
+    left: 1535px;
+    margin: 0px 100px;
+}
+
+.img3 {
+    position: absolute;
+    top: 0px;
+    left: 3500px;
+    margin: 0px 100px; 
+}
+
+.tri1 {
+    width: 10px;
+    height: 150px;
+    /* border-color: red; */
+    border-top: 50px solid transparent;
+    border-bottom: 0px solid white;
+    border-right: 50px solid transparent;
+    border-left: 50px solid white;
+    position: absolute;
+    top: 198px;
+    left: 135px;
+
+}
+
+.tri2 {
+    width: 500px;
+    height: 30px;
+    border-top: 60px solid white;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 0px solid white;
+    position: absolute;
+    top: 8.3px;
+    right: 8px;
+
+}
+
+.tri3 {
+    width: 0px;
+    height: 30px;
+    border-top: 60px solid white;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top: 68.3px;
+    right: 80px;
+}
+
+.tri4 {
+    width: 300px;
+    height: 20px;
+    border-bottom: 60px solid transparent;
+    border-top: 40px solid #262626;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top: 397px;
+    right: 253px;
+}
+/* .group1{
+    position: absolute;
+    top: 128px;
+    left: 240px;
+
+}
+.trapeziumi1{
+    font-size: 3em;
+    color: red;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    z-index: 22;
+}
+.trapezium1{
+    z-index: 1;
+    position: absolute;
+    top: 128px;
+    right: 229px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border-top: 200px solid blaCK;
+    border-bottom: 100px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 100px solid transparent;
+    
+} */
+/* .group2{
+    position: absolute;
+    top: 128px;
+    left: 1535px;
+
+}
+.trapeziumi2{
+    font-size: 3em;
+    color: red;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    z-index: 22;
+}
+.trapezium2{
+    z-index: 1;
+    position: absolute;
+    top: 128px;
+    right: 229px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border-top: 200px solid blaCK;
+    border-bottom: 100px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 100px solid transparent;
+    
+} */
+/* .group3{
+    position: absolute;
+    top: 128px;
+    left: 3500px;
+
+}
+.trapeziumi3{
+    font-size: 3em;
+    color: red;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    z-index: 22;
+}
+.trapezium3{
+    z-index: 1;
+    position: absolute;
+    top: 128px;
+    right: 229px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border-top: 200px solid blaCK;
+    border-bottom: 100px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 100px solid transparent;
+    
+} */
