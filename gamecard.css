@@ -1,6 +1,7 @@
-body{
+body {
     background-color: #1e1e1e;
 }
+
 .body {
     background-color: #262626;
     display: flex;
@@ -41,30 +42,31 @@ body{
 
 }
 
- .img {
+.img {
     width: 811px;
     height: 220px;
     position: absolute;
     top: 145px;
     /* background-color: #1e1e1e; */
     left: 338px;
-     display: flex;
-        justify-content: center;
-        align-items: center;
-        
-         flex-direction: row; 
-     overflow: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    overflow: auto;
     /* position: relative; */
-     /* direction: ltl; */
+    /* direction: ltl; */
 
 
 
-} 
-.img::-webkit-scrollbar{
+}
+
+.img::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
- 
+
 .tri1 {
     width: 10px;
     height: 150px;
@@ -115,13 +117,15 @@ body{
     top: 397px;
     right: 253px;
 }
-.group1{
+
+.group1 {
     position: absolute;
     top: 0px;
     left: 0px;
 
 }
-.trapeziumi1{
+
+.trapeziumi1 {
     font-size: 3em;
     color: white;
     position: absolute;
@@ -130,7 +134,8 @@ body{
 
     z-index: 22;
 }
- .trapezium1{
+
+.trapezium1 {
     z-index: 1;
     position: absolute;
     top: 0px;
@@ -142,29 +147,39 @@ body{
     border-bottom: 100px solid transparent;
     border-right: 0px solid transparent;
     border-left: 100px solid transparent;
-    
-} 
-.scrolll{
+
+}
+
+.scrolll {
     font-size: 2rem;
     color: white;
     position: absolute;
     top: 7em;
     left: 7em;
 }
-.scrollr{
+.scrolll img {
+    width: 3em;
+}
+
+.scrollr {
     font-size: 2rem;
     color: white;
     position: absolute;
     top: 7em;
     right: 8em;
 }
-.group2{
+.scrollr img {
+    width: 3em;
+}
+
+.group2 {
     position: absolute;
     top: 0px;
     left: 1535px;
 
 }
- .trapeziumi2{
+
+.trapeziumi2 {
     font-size: 3em;
     color: white;
     position: absolute;
@@ -172,7 +187,8 @@ body{
     left: 2100px;
     z-index: 22;
 }
-.trapezium2{
+
+.trapezium2 {
     z-index: 1;
     position: absolute;
     top: 0px;
@@ -185,20 +201,23 @@ body{
     border-bottom: 100px solid transparent;
     border-right: 0px solid transparent;
     border-left: 100px solid transparent;
-    
-}  
-.group3{
+
+}
+
+.group3 {
     position: absolute;
     top: 0px;
     left: 3070px;
 
 }
-.group4{
+
+.group4 {
     position: absolute;
     top: 0px;
     left: 3800px;
 }
- .trapeziumi3{
+
+.trapeziumi3 {
     font-size: 3em;
     color: white;
     position: absolute;
@@ -206,7 +225,8 @@ body{
     left: 3650px;
     z-index: 22;
 }
-.trapezium3{
+
+.trapezium3 {
     z-index: 1;
     position: absolute;
     top: 0px;
@@ -219,5 +239,5 @@ body{
     border-bottom: 100px solid transparent;
     border-right: 0px solid transparent;
     border-left: 100px solid transparent;
-    
-} 
+
+}
