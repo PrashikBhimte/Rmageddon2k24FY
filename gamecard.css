@@ -1,3 +1,6 @@
+body{
+    background-color: #1e1e1e;
+}
 .body {
     background-color: #262626;
     display: flex;
@@ -42,50 +45,32 @@
     width: 811px;
     height: 220px;
     position: absolute;
-    top: 128px;
-    left: 240px;
-    /* display: flex;
+    top: 145px;
+    /* background-color: #1e1e1e; */
+    left: 338px;
+     display: flex;
         justify-content: center;
         align-items: center;
         
-         flex-direction: row; */
-    overflow: scroll;
+         flex-direction: row; 
+     overflow: auto; 
     /* position: relative; */
-    direction: ltl;
+     /* direction: ltl; */
 
 
 
+} 
+.img::-webkit-scrollbar{
+    -webkit-appearance: none;
 }
 
- .img1 {
-    position: absolute;
-    top: 0px;
-    left: -35px;
-    margin: 0px 100px;
-    margin: 0px;
-
-}
-
-.img2 {
-    position: absolute;
-    top: 0px;
-    left: 1535px;
-    margin: 0px 100px;
-}
-
-.img3 {
-    position: absolute;
-    top: 0px;
-    left: 3500px;
-    margin: 0px 100px; 
-}
-
+ 
 .tri1 {
     width: 10px;
     height: 150px;
     /* border-color: red; */
     border-top: 50px solid transparent;
-    border-bottom: 0px solid #1e1e1e;
+    border-bottom: 0px solid white;
     border-right: 50px solid transparent;
     border-left: 50px solid #1e1e1e;
     position: absolute;
@@ -100,7 +85,7 @@
     border-top: 60px solid #1e1e1e;
     border-bottom: 50px solid transparent;
     border-left: 50px solid transparent;
-    border-right: 0px solid #1e1e1ee;
+    border-right: 0px solid white;
     position: absolute;
     top: 8.3px;
     right: 8px;
@@ -132,23 +117,24 @@
 }
 .group1{
     position: absolute;
-    top: 128px;
-    left: 240px;
+    top: 0px;
+    left: 0px;
 
 }
 .trapeziumi1{
     font-size: 3em;
     color: white;
     position: absolute;
-    top: 200px;
-    right: 350px;
+    top: 80px;
+    left: 600px;
+
     z-index: 22;
 }
  .trapezium1{
     z-index: 1;
     position: absolute;
-    top: 128px;
-    right: 229px;
+    top: 0px;
+    right: 2px;
     width: 300px;
     height: 50px;
     background-color: transparent;
@@ -157,8 +143,22 @@
     border-right: 0px solid transparent;
     border-left: 100px solid transparent;
     
-} */
-/* .group2{
+} 
+.scrolll{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+.scrollr{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 7em;
+    right: 8em;
+}
+.group2{
     position: absolute;
     top: 0px;
     left: 1535px;
@@ -168,15 +168,16 @@
     font-size: 3em;
     color: white;
     position: absolute;
-    top: 200px;
-    right: 350px;
+    top: 80px;
+    left: 2100px;
     z-index: 22;
 }
 .trapezium2{
     z-index: 1;
     position: absolute;
-    top: 128px;
-    right: 229px;
+    top: 0px;
+    left: 1926.5px;
+
     width: 300px;
     height: 50px;
     background-color: transparent;
@@ -188,23 +189,29 @@
 }  
 .group3{
     position: absolute;
-    top: 128px;
-    left: 3500px;
+    top: 0px;
+    left: 3070px;
 
 }
-.trapeziumi3{
+.group4{
+    position: absolute;
+    top: 0px;
+    left: 3800px;
+}
+ .trapeziumi3{
     font-size: 3em;
     color: white;
     position: absolute;
-    top: 200px;
-    right: 350px;
+    top: 80px;
+    left: 3650px;
     z-index: 22;
 }
 .trapezium3{
     z-index: 1;
     position: absolute;
-    top: 128px;
-    right: 229px;
+    top: 0px;
+    left: 3482px;
+
     width: 300px;
     height: 50px;
     background-color: transparent;
@@ -213,4 +220,4 @@
     border-right: 0px solid transparent;
     border-left: 100px solid transparent;
     
-} */
+} 
